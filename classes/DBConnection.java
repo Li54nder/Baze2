@@ -10,8 +10,8 @@ public class DBConnection {
 		try{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			conn=DriverManager.getConnection(
-					"jdbc:oracle:thin:@nastava.is.pmf.uns.ac.rs:1521:xe",
-					"baze2","baze2");
+					"jdbc:oracle:thin:@SeRvEr:0000:xx",
+					"name","****");
 		}
 		catch(Exception e){
 			System.out.println("Database down");
